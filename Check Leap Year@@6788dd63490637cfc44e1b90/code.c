@@ -9,8 +9,6 @@ int main() {
     else (y%100!=0){
         printf("Leap Year");
     }
-    return 0;
-    }
-    printf("%s", welcome());
+ 
     return 0;
 }
