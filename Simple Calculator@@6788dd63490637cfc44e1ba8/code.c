@@ -21,6 +21,5 @@ int main() {
         default:
             printf("Eror")     ;  
     }
-    printf("%s", welcome());
     return 0;
 }
