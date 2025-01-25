@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char c;
-    scanf("%c",&g);
-    switch(c){
+    char ch;
+    scanf("%c",&ch);
+    switch(ch){
         case 'R':
             printf("Stop");
             break;
@@ -15,9 +15,6 @@ int main() {
         default:
             printf("Invalid input");            
     }
-
-
-
 
     return 0;
 }
