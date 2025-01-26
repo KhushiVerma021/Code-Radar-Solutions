@@ -14,6 +14,5 @@ int main() {
     }else if (n==2){
         printf("Prime");
     }
-    printf("%s", welcome());
     return 0;
 }
