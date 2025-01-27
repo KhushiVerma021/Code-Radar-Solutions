@@ -16,7 +16,7 @@ int main() {
                 printf("Not Prime");
                 break;
             }
-            else (i>n/2){
+            if (i>n/2){
                 printf("Prime");
             }
         }
