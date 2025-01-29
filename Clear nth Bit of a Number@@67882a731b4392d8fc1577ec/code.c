@@ -3,9 +3,9 @@
 int main() {
     int num;
     int n;
+    int bit;
     scanf("%d %d",&num,&n);
-    int mask= 1<<n;
-    num=num^mask;
+    num= num& ~(1<<n);
     printf("%d",num);
 
 
