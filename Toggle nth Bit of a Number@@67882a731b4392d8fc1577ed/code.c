@@ -5,7 +5,7 @@ int main() {
    int n;
    scanf("%d %d",&num,&n);
    num= num^(1<<n);
-   printf("%d",&num); 
+   printf("%d",num); 
 
 
 
