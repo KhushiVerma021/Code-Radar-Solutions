@@ -6,7 +6,7 @@ int main() {
     if(n==2){
         printf("Prime");
     }
-    else if{
+    else{
         int i;
         for(i=2; i<=n; i++){
             if (n%i==0){
