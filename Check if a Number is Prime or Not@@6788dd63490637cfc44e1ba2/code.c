@@ -2,7 +2,7 @@
 int main(){
     int number,i=2,x=1;
     scanf("%d",&number);
-    while(i<(number/2)){
+    while(i<=(number/2)){
         if (number%i==0){
             x=0;
             break;
