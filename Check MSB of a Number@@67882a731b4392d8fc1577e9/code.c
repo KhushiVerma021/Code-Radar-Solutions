@@ -3,8 +3,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int mask= 1<<(32-1);
-    if(n && mask){
+    if(n<<32){
         printf("Set");
     }else{
         printf("Not Set");
