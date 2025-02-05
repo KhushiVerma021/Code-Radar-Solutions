@@ -5,7 +5,7 @@ int main() {
     int n;
     int bit;
     scanf("%d %d",&num,&n);
-    num= num& ~(1<<n);
+    num= num&(num-1);
     printf("%d",num);
 
 
