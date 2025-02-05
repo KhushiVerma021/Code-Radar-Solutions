@@ -7,6 +7,6 @@ int main() {
     scanf("%d",&i);
     int mask= 1<<(i-1);
     x= x|mask;
-    printf("%d",x)
+    printf("%d",x);
     return 0;
 }
