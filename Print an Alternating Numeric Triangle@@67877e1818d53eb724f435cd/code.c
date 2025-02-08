@@ -10,7 +10,7 @@ int main() {
         }else{
             a=0;
         }
-        for(int j=1; j<=i; j++){
+        for(int j=1; j<=n; j++){
             printf("%d",a);
             if(a==0){
                 a=1;
