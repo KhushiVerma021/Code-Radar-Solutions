@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int x;
-    scanf("%d",&x);
+    int n;
+    scanf("%d",&n);
     int i;
     scanf("%d",&i);
-    int mask= 1<<(i-1);
-    int y= x|mask;
-    printf("%d",y);
+    n|= (1<<n);
+    printf("%d",num);
     return 0;
 }
