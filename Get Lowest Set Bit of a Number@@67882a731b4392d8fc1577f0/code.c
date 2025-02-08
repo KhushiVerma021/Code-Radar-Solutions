@@ -3,8 +3,8 @@
 int main() {
     int num;
     scanf("%d",&num);
-    int n= num & -num;
-    printf("%d",n);
+    num= num & -num;
+    printf("%d",num);
 
 
 
