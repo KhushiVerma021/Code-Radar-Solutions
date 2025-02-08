@@ -7,7 +7,7 @@ int main() {
         printf("%d",sizeof(num)*8);
     }
     else{
-        int vount=0;
+        int count=0;
         while((num&1)==0){
             count++;
             num>>=1;
