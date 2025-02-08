@@ -1,23 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n,limit=1;
     scanf("%d",&n);
-    int nst=1;
-    int nsp=n/2;
-    for(int i=1; i<=n; i++){
-        for(int k=1;k<=nsp;k++){
+    for(int i=1; i<=2*n-1; i++){
+        for(int j=1;j<=abs(n-i);j++){
             printf(" ");
         }
-        for(int j=1; j<=nst;j++){
+        for(int k=1; k<=2*limit;k++){
             printf("*");
         }
-        if(i<(n+1)/2){
-            nsp--;
-            nst=nst+2;
+        if(i<n){
+           limit++;
         }else{
-            nsp++;
-            nst=nst-2;
+            limit--;
         }
         printf("\n");
     }
