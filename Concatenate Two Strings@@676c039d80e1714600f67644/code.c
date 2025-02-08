@@ -6,6 +6,6 @@ int main() {
     char str2[100];
     scanf("%[^\n] %[^\n]",&str1,&str2);
     strcat(str1,str2);
-    printf("%s",s1);
+    printf("%s",str1);
     return 0;
 }
