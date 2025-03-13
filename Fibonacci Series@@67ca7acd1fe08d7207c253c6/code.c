@@ -1,4 +1,7 @@
 void fibonacciSeries(int n){
+    if(n<=0){
+            printf("Invalid input\n")
+    }else{
     int a=0;
     int b=1;
     for(int i=1; i<=n; i++){
@@ -15,5 +18,5 @@ void fibonacciSeries(int n){
         b=c;
         printf("%d ",c);
     }
-    printf("\n");
+    printf("\n");}
 }
