@@ -1,6 +1,6 @@
 void fibonacciSeries(int n){
     if(n<=0){
-            printf("Invalid input\n")
+            printf("Invalid input\n");
     }else{
     int a=0;
     int b=1;
