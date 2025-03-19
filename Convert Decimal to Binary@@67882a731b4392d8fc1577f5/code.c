@@ -1,9 +1,19 @@
 #include <stdio.h>
 int main(){
-    int n;
+    int n,bit;
+    int leadingZero=1;
     scanf("%d",&n);
-    for(int i=3; i>=0; i--){
-        printf("%d",(n>>i)&1);
+    if(n==0){
+        printf("0");
+    }
+    for(int i=31; i>=0; i--){
+        bit = (n>>i) & 1;
+        if(bit ==1){
+            leadingZero=0;
+        }
+        if(!leadingZero){
+            printf("%d",bit);
+        }
     }printf("\n");
     return 0;
 }
