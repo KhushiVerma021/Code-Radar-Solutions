@@ -13,12 +13,13 @@ int main(){
     scanf("%d",&T);
     for(int i=0; i<=n-1; i++){
         if(arr[i]==T){
+            count=1;
             printf("%d",i);
             break;
         }
-        else{
-            printf("-1");
-        }
+    }
+    if(!found){
+        printf("-1");
     }
     return 0;
 }
