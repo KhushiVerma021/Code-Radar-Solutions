@@ -13,7 +13,7 @@ int main(){
     scanf("%d",&T);
     for(int i=0; i<=n-1; i++){
         if(arr[i]=T){
-            printf("%d",i)
+            printf("%d",i);
         }
         else{
             printf("-1");
